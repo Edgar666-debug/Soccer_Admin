@@ -1,0 +1,45 @@
+/* 
+    Created on : 25 mar. 2024, 03:26:31
+    Author     : jaime
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+.table-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s{
+    flex: 1;
+    margin-right: 10px; /* Ajusta el margen según tus necesidades */
+}
+
+.space{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    padding-bottom: 15px;
+}
+
+
+.form2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    padding-bottom: 15px;
+}
+
+
+
+

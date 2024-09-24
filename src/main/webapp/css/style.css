@@ -1,0 +1,195 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18 mar. 2024, 00:48:08
+    Author     : jaime
+*/
+section {
+    background: url(../Iconos/Pelota.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;      
+    background-attachment: fixed;
+    min-height: calc(100vh - 120px); /* Ajusta la altura mínima de la sección restando la altura del header */
+}
+
+body {
+    margin: 0;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    background-color: #000080;
+    text-align: center; /* Centra horizontalmente el contenido del footer */
+    padding: .5em 0;
+    height: 80px; /* Define una altura fija para el footer */
+    display: flex; /* Activa el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente los elementos del footer */
+    align-items: center; /* Define una altura fija para el footer */
+}
+
+.formulario{
+    border-radius: 10px;
+    padding:25px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
+    border: 1px solid #ddd;
+}
+
+
+:root{
+      --blanco: #FFFF;
+    --OSCURO: #212121;
+    --primario: #00FFFF;
+    --SECUNDARIO: #061b93;
+    --GRIS: #757575;
+}
+
+@media only screen and (max-width: 768px) {
+    .formulario {
+        width: 90%; /* Reducir el ancho del formulario en pantallas pequeñas */
+    }
+
+    .p {
+        font-size: 24px; /* Reducir el tamaño de la fuente del título en pantallas pequeñas */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .formulario {
+        padding: 15px; /* Reducir el espacio interior del formulario en pantallas muy pequeñas */
+    }
+
+    .h {
+        font-size: 16px; /* Reducir el tamaño de la fuente de las etiquetas en pantallas muy pequeñas */
+    }
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;/*desde Paul irish*/
+    scroll-snap-type: y mandatory;
+}
+
+body{
+    font-size: 16px; /*1 rem = 10 px*/
+    font-family: "Krub", sans-serif;
+    /* background: linear-gradient(to bottom, rgba(169,3,41,0.42) 0%, rgba(156,25,47,0.42) 12%, rgba(98,125,77,0.78) 67%, rgba(143,2,34,0.87) 81%, rgba(143,2,34,1) 100%); */
+}
+
+*{
+    margin:0px;
+    padding: 0px;   
+}
+
+#cuadro{
+    width: 330px;
+    background: #090909;
+    color:#ffffff;
+    margin: auto;
+    margin-top: 120px;
+    padding: 5px 5px 30px 5px;
+    border-top: 35px solid #141414;
+    border-right: 35px solid #141414;
+    border-left: 35px solid #141414;
+    border-radius:6px; 
+}
+
+#botton{
+    width: 250px;
+    height: 35px;
+    border-radius:6px; 
+    background: blue;
+    color:#ffffff;
+    font-size: 15px;    
+}
+
+
+#subtitulo{
+    padding-left: 80px;
+}
+#subtitulo2{
+    padding-left: 107px;
+}
+
+.p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.nav-principal{
+       background-color: #000080; 
+}
+
+
+.nav{
+    background-color: blue;
+}
+
+.texto--blanco{
+    color:white;
+    margin: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.navegacion-principal{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.contenedor{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.navegacion-principal a:hover{
+    background-color: #000080;
+}
+
+.navegacion-principal a{
+    display: block;
+    width: 100%;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 20;
+    padding: 1rem;
+    /* width: 100%; */
+}
+
+@media only screen and (min-with: 480px){
+    .navegacion-principal{
+    flex-direction: column;
+    justify-content: center;
+    }
+}
+
+.h{
+    font-size: 20px;
+    font-style:italic;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+.h1{
+    font-size: 25px;
+    text-align: center;
+    /*color: #ffffff;*/
+    color: #ffffff;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
